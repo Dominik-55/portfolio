@@ -59,11 +59,11 @@ window.onclick = function(event) {
 }
 
 document.querySelector('.hun_page').addEventListener('click', () => {
-    window.location.href = "https://dominik-55.github.io/index.html";
+    window.location.href = "https://dominik-55.github.io/portfolio/";
 });
 
 document.querySelector('.en_page').addEventListener('click', () => {
-    window.location.href = "https://dominik-55.github.io/indexen.html";
+    window.location.href = "https://dominik-55.github.io/portfolio/indexen.html";
 });
 
 if (localStorage.getItem("darkMode") === "enabled") {
