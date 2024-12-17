@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obsitos Dominik</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <button class="lightdarkmode" id="darkModeToggle">Light/Dark mode</button>
+        <button disabled class="en_page"></button>
+        <button class="hun_page"></button>
+    </nav>
+
+    <div class="first-container">
+        <div class="content">
+            <h1>I'm Dominik</h1>
+            <h2>a programmer</h2>
+            <img src="/images/keyboard.png" class="keyboard-img" alt="Keyboard Image" />
+        </div>
+    </div>
+
+    <div class="second-container">
+        <div class="content">
+            <img src="/images/profile.jpg" class="profile-img" alt="Profile Image" />
+            <h2>Hello.</h2>
+            <p>I am a Software Developer. I love video games and cool websites.</p>
+        </div>
+    </div>
+
+    <div class="third-container">
+        <div class="content">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <li>Vue.js</li>
+                    <li>Node.js</li>
+                    <li>PHP</li>
+                    <li>Angular</li>
+                    <li>MySQL</li>
+                    <li>noSQL</li>
+                    <li>React.js (learning right now)</li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fourth-container">
+        <div class="content">
+            <h2>Made Projects</h2>
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="/images/php.jpg" alt="first-project-image" class="active">
+                    <img src="/images/vue.jpg" alt="second-project-image" class="right">
+                    <img src="/images/angular.jpg" alt="third-project-image">
+                    <img src="/images/node.jpg" alt="fourth-project-image" class="left">
+                </div>
+                <div class="arrow left" onclick="prevSlide()">&#9664;</div>
+                <div class="arrow right" onclick="nextSlide()">&#9654;</div>
+                <div class="progress">
+                    <span></span>
+                </div>
+                <div class="active-info">
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                </div>
+                <div class="carousel-buttons">
+                    <button disabled>Website</button>
+                    <button disabled>GitHub repo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fifth-container">
+        <div class="content">
+            <h2>Get In Touch</h2>
+            <p>If you want to work together, feel free to contact me!</p>
+            <a onclick="openModal()" class="contact-btn">Contact Me</a>
+        </div>
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Phone: <br> +36305507415</p>
+            <p>Email: <br> odominik_bsn@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="content">
+            <a href="https://www.linkedin.com/in/dominik-obsitos-86a362328" class="footer-link">LinkedIn</a>
+            <a href="https://github.com/Dominik-55?tab=repositories" class="footer-link" target="_blank">GitHub</a>
+            <p>&copy; Obsitos Dominik</p>
+        </div>
+    </div>
+</body>
+
+<script src="scripten.js"></script>
+
+</html>
