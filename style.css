@@ -283,7 +283,7 @@ p {
 .hun_page {
     height: 25px;
     width: 40px;
-    background-image: url(/images/hu.png);
+    background-image: url(images/hu.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: none;
@@ -291,7 +291,7 @@ p {
 
 .hun_page:hover {
     border: none;
-    background-image: url(/images/hu_hov.png);
+    background-image: url(images/hu_hov.png);
 }
 
 .en_page {
@@ -299,7 +299,7 @@ p {
     margin-right: 10px;
     height: 25px;
     width: 40px;
-    background-image: url(/images/en.png);
+    background-image: url(images/en.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: none;
@@ -307,7 +307,7 @@ p {
 
 .en_page:hover {
     border: none;
-    background-image: url(/images/en_hov.png);
+    background-image: url(images/en_hov.png);
 }
 
 body.dark-mode {
