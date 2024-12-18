@@ -7,10 +7,10 @@ const buttons = document.querySelector('.carousel-buttons');
 let currentIndex = 0;
 
 const info = [
-    { title: "PHP projekt", description: "Itt lesz egy rövid leírás a jelenleg még készülő PHP projektemről." },
-    { title: "Vue.js projekt", description: "Itt lesz egy rövid leírás a jelenleg még készülő Vue.js projektemről." },
-    { title: "Angular projekt", description: "Itt lesz egy rövid leírás a jelenleg még készülő Angular projektemről." },
-    { title: "Node.js projekt", description: "Itt lesz egy rövid leírás a jelenleg még készülő Node.js projektemről." }
+    { title: "PHP projektem", description: "Itt lesz egy rövid leírás a jelenleg még készülő PHP projektemről." },
+    { title: "Vue.js projektem", description: "Itt lesz egy rövid leírás a jelenleg még készülő Vue.js projektemről." },
+    { title: "Angular projektem", description: "Itt lesz egy rövid leírás a jelenleg még készülő Angular projektemről." },
+    { title: "Node.js projektem", description: "Itt lesz egy rövid leírás a jelenleg még készülő Node.js projektemről." }
 ];
 
 function updateCarousel() {
