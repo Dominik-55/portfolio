@@ -41,11 +41,6 @@ p {
     box-sizing: border-box;
 }
 
-.fourth-container h2 {
-    position: relative;
-    margin-bottom: 180px;
-}
-
 .footer {
     font-size: small;
     background-color: #1F509A;
@@ -116,9 +111,7 @@ p {
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
-    height: 60vh;
-    gap: 20px;
-    padding-bottom: 30px;
+    height: 80vh;
 }
 
 .carousel-images {
