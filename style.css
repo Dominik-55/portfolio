@@ -274,13 +274,14 @@ p {
 }
 
 .lightdarkmode {
-    height: 30px;
-    background-color: #F0F8FF;
-    border: 4px solid #0A3981;
-    border-radius: 10px;
-    color: #0A3981;
-    font-weight: bolder;
-    font-size: large;
+    height: 40px;
+    width: 40px;
+    background-image: url(https://dominik-55.github.io/portfolio/images/moon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #494949;
+    border: 6px solid #363636;
+    border-radius: 20px;
 }
 
 .lightdarkmode:hover {
@@ -365,8 +366,27 @@ body.dark-mode .modal-content {
     background-color: #363636;
 }
 
+body.dark-mode .lightdarkmode {
+    height: 40px;
+    width: 40px;
+    background-image: url(https://dominik-55.github.io/portfolio/images/sun.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(154, 154, 57);
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+}
+
+body.dark-mode .lightdarkmode:hover {
+    background-color: yellow;
+}
+
 .arrowpic {
     height: 40px;
     background-color: #1F509A;
     border-radius: 20px;
+}
+
+.arrowpic:hover {
+    background-color: #E38E49;
 }
