@@ -28,9 +28,17 @@ p {
 
 .second-container,
 .third-container,
-.fourth-container,
 .fifth-container {
     padding: 50px 20px;
+}
+
+.fourth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
 }
 
 .footer {
@@ -102,9 +110,8 @@ p {
     position: relative;
     width: 90%;
     max-width: 600px;
-    margin-top: 60px;
+    margin: 0 auto;
     height: 60vh;
-    justify-self: center;
 }
 
 .carousel-images {
@@ -131,7 +138,7 @@ p {
     z-index: 2;
     opacity: 1;
     left: 50%;
-    transform: translateX(-50%) scale(1.1);
+    transform: translate(-50%) scale(1.1);
 }
 
 .carousel-images img.left {
