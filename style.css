@@ -364,3 +364,9 @@ body.dark-mode .carousel .progress span {
 body.dark-mode .modal-content {
     background-color: #363636;
 }
+
+.arrowpic {
+    height: 40px;
+    background-color: #1F509A;
+    border-radius: 15px;
+}
